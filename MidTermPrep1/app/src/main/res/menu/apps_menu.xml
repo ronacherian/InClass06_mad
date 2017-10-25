@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.test.MainActivity" >
+
+    <item
+        android:id="@+id/action_sort_dev_name"
+        android:orderInCategory="97"
+        android:icon="@drawable/ic_launcher"
+        android:title="@string/action_sort_dev_name"/>
+
+    <item
+        android:id="@+id/action_sort_app_name"
+        android:orderInCategory="98"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_launcher"
+        android:title="@string/action_sort_app_name"/>
+    <item
+        android:id="@+id/action_sort_app_price"
+        android:orderInCategory="99"
+        android:title="@string/action_sort_app_price"/>
+    <item
+        android:id="@+id/action_clear_history"
+        android:orderInCategory="100"
+        android:title="@string/action_clear_history"/>
+    
+</menu>
